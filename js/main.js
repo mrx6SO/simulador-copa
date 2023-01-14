@@ -154,7 +154,7 @@ function createResultForm() {
   });
 }
 
-function determineWinner() {
+/*function determineWinner() {
   // Get all the forms in the selected-countries class
   const forms = document.querySelectorAll('.selected-countries form');
   // Iterate through the forms
@@ -177,7 +177,7 @@ function determineWinner() {
     //console.log(`Winner of game ${i+1}: ${winner}`);
     alert(`Próxima rodada: ${winner1}x${winner2}`);
   }
-}
+}*/
 
 function determineWinner() {
   // Get all the forms in the selected-countries class
@@ -212,7 +212,7 @@ function determineWinner() {
   criarQuartasDeFinais();
 
 }
-function determineWinner1() {
+/*function determineWinner1() {
   // Get all the forms in the selected-countries class
   const forms = document.querySelectorAll('div.quartasDeFinais form')
 	let vencedoresOitavas = [];
@@ -238,7 +238,9 @@ function determineWinner1() {
     // Display the winner
     //console.log(`Winner of game ${i+1}: ${winner}`);
     //alert(`Próxima rodada: ${winner1}x${winner2}`);
-  }}
+  }}*/
+
+// essa função é só para checar no console.log() os resultados 
 function exibirVencedores() {
   //buscar os vencedores no localStorage
   let vencedores = JSON.parse(localStorage.getItem('vencedoresOitavas'))
@@ -249,6 +251,7 @@ function exibirVencedores() {
     console.log(`Jogo ${i+1}: ${vencedores[i]}`);
   }
 }
+
 function criarQuartasDeFinais() {
   //buscar os vencedores no localStorage
   let vencedores = JSON.parse(localStorage.getItem('vencedoresOitavas'))
