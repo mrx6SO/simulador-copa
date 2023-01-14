@@ -1,0 +1,125 @@
+@import  url ( 'https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,200;1,500&display=swap' );
+
+* {
+    margem :  0 ;
+    preenchimento :  0 ;
+    tamanho da caixa : caixa de borda;
+    font-family : Poppins , sem serifa;
+}
+
+corpo {
+    largura :  100 % ;
+    plano de fundo :  rgb ( 157 , 12 , 53 );
+    plano de fundo :  gradiente radial (círculo ,  rgba ( 157 , 12 , 53 , 1 ) 0 % ,  rgba ( 69 , 1 , 24 , 1 ) 100 % );
+}
+
+h1 ,  h2 {
+    alinhamento de texto : centro;
+    cor :  #fff ; _
+    text-shadow :  1 px  1 px  2 px  # 000 ;
+}
+
+h3 {
+    alinhamento de texto : centro;
+    cor de fundo :  # fff ;
+    preenchimento :  0,5 rem  1 rem ;
+    raio da borda :  1,5 rem ;
+}
+
+. tela-principal {
+    preenchimento :  2 rem ;
+}
+
+/* seção */
+. grupos , . listaDoGrupo {
+    exibição : flexível;
+    flex-direction : coluna;
+
+    plano de fundo :  rgba ( 255 ,  255 ,  255 ,  0,7 );
+    margem superior :  1 rem ;
+    enchimento :  1 rem ;
+    raio da borda :  0,5 rem ;
+}
+
+. bandeirap {
+    largura :  50 px ;
+    raio da borda :  0,5 rem ;
+    -webkit-user-drag : nenhum;
+    -moz-user-drag : nenhum;
+    -ms-user-drag : nenhum;
+    -o-user-drag : nenhum;
+}
+
+olá {
+    tamanho da fonte :  1 rem ;
+}
+
+olá  { _
+    exibição : flexível;
+    itens de alinhamento : centro;
+    intervalo :  0,5 rem ;
+    margem :  1 rem  0  0  0 ;
+}
+
+/* oi */
+. listaGrupo {
+    exibição : flexível;
+    flex-direction : coluna;
+    justificar-conteúdo : centro;
+}
+
+rodapé {
+    altura :  1 rem ;
+    cor :  #fff ; _
+    text-shadow :  1 px  1 px  1 px  # 000 ;
+    margem superior :  1 rem ;
+    exibição : flexível;
+    itens de alinhamento : centro;
+    justificar-conteúdo : centro;
+}
+
+/* div de modelo para exibir cada grupo */
+. modelo {
+    exibição : nenhum;
+}
+
+/* seção .listas */
+. listas {
+    exibição : grade;
+    grid-template-columns :  repeat (auto-fit ,  minmax ( 250 px ,  1 fr ));
+    espaçamento entre colunas :  3 rem ;
+    intervalo entre linhas :  1 rem ;
+}
+
+. direita inferior {
+    posição : fixo;
+    direita :  0 ;
+    inferior :  0 ;
+}
+
+. btn {
+    preenchimento :  0,5 rem  1 rem ;
+    raio da borda :  50 % ;
+    margem :  1 rem ;
+    
+    exibição : flexível;
+    itens de alinhamento : centro;
+    justificar-conteúdo : centro;
+
+    tamanho da fonte :  1 rem ;
+    alinhamento de texto : centro;
+    plano de fundo :  rgba ( 255 ,  255 ,  288 ,  1 );
+    decoração de texto : nenhum;
+    peso da fonte : negrito;
+    cor :  # 000 ;
+    transição : facilidade 0,3 s ;
+}
+
+. btn-topo {
+    plano de fundo :  rgba ( 157 ,  12 ,  53 ,  0,5 );
+    cor :  #fff ; _
+}
+
+. btn-topo : hover {
+    plano de fundo :  rgba ( 157 ,  12 ,  53 ,  1 );
+}

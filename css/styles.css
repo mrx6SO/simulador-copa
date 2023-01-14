@@ -1,0 +1,107 @@
+
+		body{
+			background-image: url('../imgs/taca.png');
+		}
+		.bandeiras{
+		    display: flex;
+		    border-top: none;
+
+		}
+
+		img{
+			width: 50px;
+			height: auto;
+			border-radius: 6px 6px 6px 6px;
+			margin: 0px auto;
+
+			display: inline-flex;
+		}
+		div.box{
+			flex: -moz-available;
+			margin: 0px auto;
+			text-align: center;
+			display: inline-grid;
+			position: relative;
+			justify-content: space-around;
+			border: 1px solid #3333f7;
+			border-radius: 6px 6px 6px 6px;
+		}
+		.inicio{
+			position: fixed;
+			text-align: left;
+			border: 6px red;
+			margin: 5px;
+			padding: 5px;
+		}
+		span{
+			color: #FF00FF;
+			background-color: #E0FFFF;
+			text-align: center;
+			display: inline-flex;
+			justify-content: space-around;
+			margin: 15px 0px 15px 0px;
+			/*! margin-top: 15px; */
+			width: 20vh;
+			height: auto;
+			border-radius: 6px 6px 6px 6px;
+		}
+		h1{
+			background-color: #1E90FF;
+			color: #990066;
+			text-align: center;
+			border: 5px;
+		}
+.group {
+	display: inline-grid;
+	flex-wrap: wrap;
+	border: 1px solid black;
+	margin: 0px auto;
+	padding: 10px;
+}
+.groups {
+	display: inline-grid;
+	flex-wrap: wrap;
+	border: 1px solid black;
+	margin: 0px auto;
+	padding: 10px;
+}
+
+.group img {
+	width: 50px;
+	height: auto;
+	border-radius: 5px;
+	margin: 1px;
+	display: list-item;
+	margin: auto;
+}
+.groups img {
+	width: 50px;
+	height: auto;
+	border-radius: 5px;
+	margin: 1px;
+	display: list-item;
+	margin: auto;
+}
+.group span {
+  color: #FF00FF;
+  background-color: #E0FFFF;
+ text-align: center;
+			display: inline-flex;
+			justify-content: space-around;
+			margin: 15px 0px 15px 0px;
+			/*! margin-top: 15px; */
+			width: 20vh;
+			height: auto;
+}
+
+.groups span {
+  color: #FF00FF;
+  background-color: #E0FFFF;
+ text-align: center;
+			display: inline-flex;
+			justify-content: space-around;
+			margin: 15px 0px 15px 0px;
+			/*! margin-top: 15px; */
+			width: 20vh;
+			height: auto;
+}
