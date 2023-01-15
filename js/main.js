@@ -221,7 +221,6 @@ function determineWinner() {
     // Get the input elements for the goals of each country
     const country1Goals = forms[i].querySelector('input[name="country1"]').value;
     const country2Goals = forms[i].querySelector('input[name="country2"]').value;
-
     // Compare the number of goals and determine the winner
     let winner1 = '';
     let winner2 = '';
