@@ -1,56 +1,92 @@
+body {
+	background-image: url('../imgs/taca.png');
+	box-sizing: border-box;
+	margin: auto;
+	padding: 0px;
 
-		body{
-			background-image: url('../imgs/taca.png');
-		}
-		.bandeiras{
-		    display: flex;
-		    border-top: none;
+}
 
-		}
+.bandeiras {
+	display: flex;
+	border-top: transparent;
+	flex-direction: row;
+	align-content: space-around;
+	justify-content: space-evenly;
+	align-items: baseline;
+	flex-wrap: wrap;
+	margin: 0px 0px 10px 10px;
+	margin-top: auto;
+	margin-block: 5px;
+	margin-bottom: 10px;
+	padding: initial;
+	width: auto;
+	height: -webkit-fill-available;
+}
 
-		img{
-			width: 50px;
-			height: auto;
-			border-radius: 6px 6px 6px 6px;
-			margin: 0px auto;
+img {
+	width: 50px;
+	height: auto;
+	border-radius: 6px 6px 6px 6px;
+	margin: 0px auto;
+	display: inline-flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-content: center;
+	justify-content: space-evenly;
+	align-items: baseline;
+	margin-top: 2px;
+	padding-top: initial;
+	top: 5px;
+	position: relative;
+}
 
-			display: inline-flex;
-		}
-		div.box{
-			flex: -moz-available;
-			margin: 0px auto;
-			text-align: center;
-			display: inline-grid;
-			position: relative;
-			justify-content: space-around;
-			border: 1px solid #3333f7;
-			border-radius: 6px 6px 6px 6px;
-		}
-		.inicio{
-			position: fixed;
-			text-align: left;
-			border: 6px red;
-			margin: 5px;
-			padding: 5px;
-		}
-		span{
-			color: #FF00FF;
-			background-color: #E0FFFF;
-			text-align: center;
-			display: inline-flex;
-			justify-content: space-around;
-			margin: 15px 0px 15px 0px;
-			/*! margin-top: 15px; */
-			width: 20vh;
-			height: auto;
-			border-radius: 6px 6px 6px 6px;
-		}
-		h1{
-			background-color: #1E90FF;
-			color: #990066;
-			text-align: center;
-			border: 5px;
-		}
+div.box {
+	flex: initial;
+	margin: 0px auto;
+	text-align: center;
+	display: grid;
+	position: relative;
+	justify-content: center;
+	border: 1px solid #1d9f27f5;
+	border-radius: 6px 6px 6px 6px;
+	align-content: space-evenly;
+	align-items: center;
+	justify-items: center;
+	grid-auto-columns: 25vh;
+	grid-auto-columns: 25vh;
+	grid-gap: initial;
+	grid-row: 10vh;
+}
+
+.inicio {
+	position: fixed;
+	text-align: left;
+	border: 6px red;
+	margin: 5px;
+	padding: 5px;
+}
+
+span {
+	color: #FF00FF;
+	background-color: #E0FFFF;
+	text-align: center;
+	display: inline-flex;
+	justify-content: space-around;
+	margin: 15px 0px 15px 0px;
+	/*! margin-top: 15px; */
+	width: 20vh;
+	height: auto;
+	border-radius: 6px 6px 6px 6px;
+}
+
+h1 {
+	background-color: #1E90FF;
+	color: #990066;
+	text-align: center;
+	border: 5px;
+	display: block;
+}
+
 .group {
 	display: inline-grid;
 	flex-wrap: wrap;
@@ -58,6 +94,7 @@
 	margin: 0px auto;
 	padding: 10px;
 }
+
 .groups {
 	display: inline-grid;
 	flex-wrap: wrap;
@@ -74,6 +111,7 @@
 	display: list-item;
 	margin: auto;
 }
+
 .groups img {
 	width: 50px;
 	height: auto;
@@ -82,26 +120,39 @@
 	display: list-item;
 	margin: auto;
 }
+
 .group span {
-  color: #FF00FF;
-  background-color: #E0FFFF;
- text-align: center;
-			display: inline-flex;
-			justify-content: space-around;
-			margin: 15px 0px 15px 0px;
-			/*! margin-top: 15px; */
-			width: 20vh;
-			height: auto;
+	color: #FF00FF;
+	background-color: #E0FFFF;
+	text-align: center;
+	display: inline-flex;
+	justify-content: space-around;
+	margin: 15px 0px 15px 0px;
+	/*! margin-top: 15px; */
+	width: 20vh;
+	height: auto;
 }
 
 .groups span {
-  color: #FF00FF;
-  background-color: #E0FFFF;
- text-align: center;
-			display: inline-flex;
-			justify-content: space-around;
-			margin: 15px 0px 15px 0px;
-			/*! margin-top: 15px; */
-			width: 20vh;
-			height: auto;
+	color: #FF00FF;
+	background-color: #E0FFFF;
+	text-align: center;
+	display: inline-flex;
+	justify-content: space-around;
+	margin: 15px 0px 15px 0px;
+	/*! margin-top: 15px; */
+	width: 20vh;
+	height: auto;
+}
+
+div#todosPaises {
+	display: block;
+	padding: 5px 5px 5px 5px;
+	margin: 0px auto;
+	justify-content: space-evenly;
+	position: relative;
+	width: auto;
+	min-width: 50vh;
+	height: auto;
+	max-height: 18vh;
 }
